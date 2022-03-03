@@ -1,0 +1,14 @@
+{
+  "name": "jsonserver",
+  "version": "1.0.0",
+  "description": "a simple json server",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node index.js"
+  },
+  "author": "The Freedom Banana",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
