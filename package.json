@@ -4,7 +4,7 @@
   "description": "a simple json server",
   "main": "index.js",
   "scripts": {
-    "watch": "node index.js"
+    "start": "node index.js"
   },
   "author": "The Freedom Banana",
   "license": "ISC",
