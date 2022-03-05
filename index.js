@@ -24,6 +24,10 @@ items.forEach(({ manufacturer, tags }) => {
 	});
 });
 
+server.use(function (req, res, next) {
+	setTimeout(next, 3000);
+});
+
 server.use(middlewares);
 
 const port = process.env.PORT || 3000;
